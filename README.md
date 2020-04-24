@@ -50,7 +50,7 @@ func res(code int, desc string, data interface{}) Res {
 ### 结构说明
 
 属性    | 类型        | 说明
--       |-            | -
+--      |-            | -
 retcode | int         | 错误码
 msg     | string      | 错误信息
 data    | interface{} | 响应具体数据
@@ -67,7 +67,7 @@ data    | interface{} | 响应具体数据
 ##### 请求参数
 
 属性      | 类型   | 默认 | 必填 | 说明
--         | -      | -    | -    | -         
+--        | -      | -    | -    | -         
 beginTime | string |      | 是   | 开始日期。格式为 yyyy-mm-dd
 endTime   | string |      | 是   | 结束日期。格式为 yyyy-mm-dd
 
@@ -76,7 +76,7 @@ endTime   | string |      | 是   | 结束日期。格式为 yyyy-mm-dd
 返回JSON数据包
 
 属性    | 类型           | 说明
--       | -              | -
+--      | -              | -
 retcode | int            | 错误码
 msg     | string         | 错误信息
 data    | Array.<Object> | 课程科目信息数量列表
@@ -84,7 +84,7 @@ data    | Array.<Object> | 课程科目信息数量列表
 data的结构
 
 属性    | 类型 | 说明
--       | -    | -
+--      | -    | -
 Subject | int  | 科目code
 Count   | int  | 开课数量
 
@@ -96,21 +96,21 @@ Count   | int  | 开课数量
 
 ##### 请求参数
 属性      | 类型   | 默认 | 必填 | 说明
--         | -      | -    | -    | -
+--        | -      | -    | -    | -
 beginTime | string |      | 是   | 开始日期。格式为 yyyy-mm-dd
 endTime   | string |      | 是   | 结束日期。格式为 yyyy-mm-dd
 subject   | int    |      | 是   | 科目code
 ##### 返回值
 ##### Object
 属性    | 类型           | 说明
--       | -              | -
+--      | -              | -
 retcode | int            | 错误码
 msg     | string         | 错误信息
 data    | Array.<Object> | 课程详情信息
 
 data的结构
 属性         | 类型   | 说明
--            | -      |- 
+--           | -      |- 
 ID           | int    | 课程单条目录ID
 Csid         | int    | fudao-课程目录唯一ID
 Title        | string | 课程标题
@@ -125,7 +125,7 @@ CourseInfo   | Object | 所属课程包详情
 
 Teacher的结构
 属性 | 类型   | 说明
--    |-       |-
+--   |-       |-
 ID   | int    | 教师ID
 Tid  | int    | fudao-教师唯一ID
 Name | string | 教师名称
@@ -134,7 +134,7 @@ Pic  | string | 教师头像
 
 CourseInfo的结构
 属性      | 类型   | 说明
--         | -      | -
+--        | -      | -
 ID        | int    | 课程包ID
 Cid       | int    | fudao-课程包唯一ID
 CourseName| string | 课程包名称
@@ -149,7 +149,7 @@ AfAmount  | int    | 现价， 单位: 分
 #### retcode的合法值
 Teacher的结构
 值   | 说明                        | 最低版本
--    |-                            | -
+--   |-                            | -
 0    | 正常                        | 
 1001 | beginTime 或者 endTime 错误 | 
 1002 | subject 错误                | 
