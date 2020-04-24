@@ -79,7 +79,7 @@ endTime   | string |      | 是   | 结束日期。格式为 yyyy-mm-dd
 --      | -              | -
 retcode | int            | 错误码
 msg     | string         | 错误信息
-data    | Array.<Object> | 课程科目信息数量列表
+data    | Array.Object | 课程科目信息数量列表
 
 data的结构
 
@@ -106,7 +106,7 @@ subject   | int    |      | 是   | 科目code
 --      | -              | -
 retcode | int            | 错误码
 msg     | string         | 错误信息
-data    | Array.<Object> | 课程详情信息
+data    | Array.Object | 课程详情信息
 
 data的结构
 属性         | 类型   | 说明
