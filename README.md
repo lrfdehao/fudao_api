@@ -7,6 +7,10 @@ fudao 平台后台代码
 - web 开发框架： `go-gin`。 
 - 数据库： `MySQL` + `gorm`。
 
+爬虫地址: [fudao_crawler](https://github.com/lrfdehao/fudao_frontend)
+
+前端地址: [fudao_frontend](https://github.com/lrfdehao/fudao_frontend)
+
 ## 目录结构
 
 ```
